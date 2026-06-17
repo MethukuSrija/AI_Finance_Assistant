@@ -3,7 +3,7 @@ from groq import Groq
 import matplotlib.pyplot as plt
 import os
 
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 st.set_page_config(page_title="AI Money Mentor", layout="wide")
 st.title("💰 AI Money Mentor")
 st.caption("AI-powered financial assistant for Indian youth 🇮🇳")
