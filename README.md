@@ -108,4 +108,4 @@ streamlit run app.py
 
 ## 👩‍💻 Author
 
-Srijaa ✨
+Srija Methuku ✨
